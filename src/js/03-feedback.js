@@ -36,4 +36,5 @@ formular.addEventListener('submit', event => {
   newObject.email = mailInput.value;
   newObject.message = messageInput.value;
   formular.reset();
+  console.log(newObject);
 });
